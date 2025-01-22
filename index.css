@@ -245,18 +245,28 @@ img{
 }
 
 
-.next-btn{
+.arrow-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+}
+.arrow-button{
+    width: 50px;
+    height: 50px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-}
-
-.previous, .next{
-    padding: 17px 22px 15px 22px;
-    background-color: var(--color-orange);
-    border-radius: 50%;
     cursor: pointer;
+}
+.arrow-button i {
+font-size: 30px;
+color: #fff;
 }
 
 /* our stories  */
